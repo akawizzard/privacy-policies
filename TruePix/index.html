@@ -32,18 +32,27 @@
             border-bottom: 1px solid #d2d2d7;
         }
 
+        .app-icon {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 12px;
+            border-radius: 27px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.25), 0 4px 12px rgba(0, 0, 0, 0.15);
+            display: block;
+        }
+
+        .app-name {
+            font-size: 20px;
+            color: #000000;
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+
         h1 {
             font-size: 48px;
             font-weight: 700;
             margin-bottom: 12px;
             letter-spacing: -0.5px;
-        }
-
-        .app-name {
-            font-size: 20px;
-            color: #6e6e73;
-            font-weight: 500;
-            margin-bottom: 20px;
         }
 
         .intro {
@@ -153,8 +162,9 @@
 <body>
     <div class="container">
         <header>
-            <h1>Privacy Policy</h1>
+            <img src="appicon.png" alt="TruePix App Icon" class="app-icon">
             <div class="app-name">TruePix</div>
+            <h1>Privacy Policy</h1>
             <p class="intro">We believe photography should be simple — and so should privacy. Here's what you need to know about how this app handles data.</p>
         </header>
 
