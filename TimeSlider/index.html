@@ -1,3 +1,274 @@
-Text test
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — Timezone Slider</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-example
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', sans-serif;
+            line-height: 1.7;
+            color: #1d1d1f;
+            background: #ffffff;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #d2d2d7;
+        }
+
+        .app-icon-shadow {
+            width: 100px;
+            height: 100px;
+            margin: 0 auto;
+            position: absolute;
+            left: 50%;
+            border-radius: 32px;
+            transform: translate(-40px, 20px); 
+            box-shadow: 0px -32px 40px rgb(255, 229, 34, 0.65), 0px 16px 80px rgba(247, 0, 206, 0.65) ;
+        }
+
+        .app-icon {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 12px;
+            display: block;
+            position: relative;
+            z-index: 1;
+        }
+
+        .app-name {
+            font-size: 20px;
+            color: #000000;
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 12px;
+            letter-spacing: -0.5px;
+        }
+
+        .intro {
+            font-size: 18px;
+            color: #1d1d1f;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: #1d1d1f;
+        }
+
+        h3 {
+            font-size: 20px;
+            font-weight: 600;
+            margin: 20px 0 12px 0;
+            color: #1d1d1f;
+        }
+
+        p {
+            font-size: 17px;
+            color: #1d1d1f;
+            margin-bottom: 16px;
+        }
+
+        ul {
+            list-style: none;
+            margin: 20px 0;
+        }
+
+        ul li {
+            font-size: 17px;
+            color: #1d1d1f;
+            margin-bottom: 14px;
+            padding-left: 24px;
+            position: relative;
+        }
+
+        ul li:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+            color: #0071e3;
+        }
+
+        strong {
+            font-weight: 600;
+            color: #1d1d1f;
+        }
+
+        .service-block {
+            margin: 20px 0;
+            padding-left: 20px;
+        }
+
+        .summary {
+            background: #f5f5f7;
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 50px;
+        }
+
+        .summary h2 {
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+
+        .summary ul li:before {
+            content: "✓";
+            color: #34c759;
+        }
+
+        .contact {
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 40px;
+            border-top: 1px solid #d2d2d7;
+            color: #6e6e73;
+            font-size: 15px;
+        }
+
+        a {
+            color: #0071e3;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 36px;
+            }
+
+            h2 {
+                font-size: 24px;
+            }
+
+            .container {
+                padding: 20px 10px;
+            }
+
+            .summary {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="app-icon-shadow"></div>
+            <img src="appicon.png" alt="Timezone Slider App Icon" class="app-icon">
+            <div class="app-name">Timezone Slider</div>
+            <h1>Privacy Policy</h1>
+            <p class="intro">This app is built to be simple and respectful of your privacy. Here is what it does and does not collect, and how it handles your data.</p>
+        </header>
+
+        <main>
+            <section>
+                <h2>1. What the app collects</h2>
+                <p>The app does not collect personal information about you and does not try to identify who you are.</p>
+                <p>To understand crashes and general feature usage, the app uses two trusted third party services.</p>
+
+                <div class="service-block">
+                    <h3>Sentry</h3>
+                    <p>Used to capture anonymized crash reports. This helps find bugs and improve stability. Crash reports may include device model and iOS version but never include calendar data or anything personal.</p>
+                </div>
+
+                <div class="service-block">
+                    <h3>TelemetryDeck</h3>
+                    <p>Used to understand how the app is being used in a broad, anonymous way. This helps guide improvements. TelemetryDeck does not track you across apps and does not create user profiles.</p>
+                </div>
+
+                <p>All data sent to these services is anonymous.</p>
+            </section>
+
+            <section>
+                <h2>2. No accounts and no sign ups</h2>
+                <p>The app does not require an account or any personal information to use it.</p>
+            </section>
+
+            <section>
+                <h2>3. Permissions</h2>
+                <p>The app requests access only to features needed for its core functionality.</p>
+
+                <div class="service-block">
+                    <h3>Calendar</h3>
+                    <p>Requested so the app can create events in your Apple Calendar. It only writes events when you choose to create one. It does not read your existing calendars and does not send calendar data anywhere.</p>
+                </div>
+            </section>
+
+            <section>
+                <h2>4. Subscriptions</h2>
+                <p>The app uses standard Apple StoreKit for subscriptions. Payments, renewals, refunds, and security are all handled by Apple.</p>
+                <p>The app receives only the information Apple provides to developers, such as whether a subscription is active. It does not receive your name, email, or payment details.</p>
+            </section>
+
+            <section>
+                <h2>5. No ads or tracking for advertising</h2>
+                <p>The app does not run ads. No data is collected or shared for advertising or marketing purposes.</p>
+            </section>
+
+            <section>
+                <h2>6. How data is handled</h2>
+                <p>No data is sold or shared with advertisers or third parties outside of Sentry and TelemetryDeck, which handle anonymized diagnostics and usage signals as described above.</p>
+            </section>
+
+            <section>
+                <h2>7. Children</h2>
+                <p>The app is not designed for children and does not knowingly collect information that could identify a child.</p>
+            </section>
+
+            <section>
+                <h2>8. Contact</h2>
+                <p>Questions or concerns about privacy can be sent to <a href="mailto:your-email@example.com">your-email@example.com</a>. Feedback is always welcome.</p>
+            </section>
+
+            <div class="summary">
+                <h2>Summary</h2>
+                <ul>
+                    <li>No personal profile is created.</li>
+                    <li>Crash data through Sentry is anonymized.</li>
+                    <li>Usage data through TelemetryDeck is anonymous.</li>
+                    <li>Calendar access is used only to create events you choose.</li>
+                    <li>Subscriptions are handled securely by Apple StoreKit.</li>
+                    <li>No ads. No selling of data.</li>
+                </ul>
+                <p style="margin-top: 20px;">The app keeps things simple, transparent, and respectful of your privacy.</p>
+            </div>
+        </main>
+
+        <footer class="contact">
+            <p>Last updated: December 11, 2025</p>
+        </footer>
+    </div>
+</body>
+</html>
