@@ -164,6 +164,23 @@
             text-decoration: underline;
         }
 
+        .email-button {
+            display: inline-block;
+            background: #0071e3;
+            color: #ffffff;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 17px;
+            font-weight: 500;
+            text-decoration: none;
+            transition: background 0.2s ease;
+        }
+
+        .email-button:hover {
+            background: #0077ed;
+            text-decoration: none;
+        }
+
         @media (max-width: 768px) {
             h1 {
                 font-size: 36px;
@@ -248,7 +265,10 @@
 
             <section>
                 <h2>10. Contact</h2>
-                <p>If something here is unclear or you want to reach out, you can contact me at <a href="mailto:verysimplefeedback@gmail.com">verysimplefeedback@gmail.com</a>.</p>
+                <p>If something here is unclear or you want to reach out, you can contact me via email.</p>
+                <p style="margin-top: 20px;">
+                    <a href="mailto:verysimplefeedback@gmail.com" class="email-button">Send Email</a>
+                </p>
             </section>
 
             <div class="summary">
@@ -265,7 +285,7 @@
         </main>
 
         <footer class="contact">
-            <p>Last updated: December 11, 2025</p>
+            <p>Last updated: December 12, 2025</p>
         </footer>
     </div>
 </body>
