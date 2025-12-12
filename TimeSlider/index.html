@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
     <title>Privacy Policy — Timezone Slider</title>
     <style>
         * {
@@ -163,6 +164,23 @@
             text-decoration: underline;
         }
 
+        .email-button {
+            display: inline-block;
+            background: #0071e3;
+            color: #ffffff;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 17px;
+            font-weight: 500;
+            text-decoration: none;
+            transition: background 0.2s ease;
+        }
+
+        .email-button:hover {
+            background: #0077ed;
+            text-decoration: none;
+        }
+
         @media (max-width: 768px) {
             h1 {
                 font-size: 36px;
@@ -189,57 +207,59 @@
             <img src="appicon.png" alt="Timezone Slider App Icon" class="app-icon">
             <div class="app-name">Timezone Slider</div>
             <h1>Privacy Policy</h1>
-            <p class="intro">This app is built to be simple and respectful of your privacy. Here is what it does and does not collect, and how it handles your data.</p>
+            <p class="intro">This app is built to be simple and respectful of your privacy. Here is what the app collects, what it does not collect, and how it handles your data.</p>
         </header>
 
         <main>
             <section>
                 <h2>1. What the app collects</h2>
                 <p>The app does not collect personal information about you and does not try to identify who you are.</p>
-                <p>To understand crashes and general feature usage, the app uses two trusted third party services.</p>
+                <p>To understand crashes and general usage patterns, the app uses two third party services.</p>
 
                 <div class="service-block">
                     <h3>Sentry</h3>
-                    <p>Used to capture anonymized crash reports. This helps find bugs and improve stability. Crash reports may include device model and iOS version but never include calendar data or anything personal.</p>
+                    <p>Sentry is used to capture anonymized crash reports. This helps find bugs and improve stability. Crash reports may include device model, iOS version, and the point where the app failed. They do not include calendar data, personal information, or anything sensitive.</p>
                 </div>
 
                 <div class="service-block">
                     <h3>TelemetryDeck</h3>
-                    <p>Used to understand how the app is being used in a broad, anonymous way. This helps guide improvements. TelemetryDeck does not track you across apps and does not create user profiles.</p>
+                    <p>The app uses TelemetryDeck to understand how features are used in a broad and anonymous way. TelemetryDeck does not collect personal information. It does not store names, emails, IP addresses, device identifiers, or location data.</p>
+                    <p>Before any analytics data leaves your device, TelemetryDeck applies a salted cryptographic hash. This makes the data anonymous and prevents anyone, including TelemetryDeck, from identifying individual users. TelemetryDeck is based in the European Union and is fully compliant with GDPR.</p>
+                    <p>The app sends high level usage signals such as app opens, number of time zones added, time format preference, onboarding status, feature usage, and whether the app is in the free or pro state. The data is used only to understand general trends and improve the app.</p>
                 </div>
-
-                <p>All data sent to these services is anonymous.</p>
             </section>
 
             <section>
                 <h2>2. No accounts and no sign ups</h2>
-                <p>The app does not require an account or any personal information to use it.</p>
+                <p>The app does not require an account and does not ask for personal details.</p>
             </section>
 
             <section>
                 <h2>3. Permissions</h2>
-                <p>The app requests access only to features needed for its core functionality.</p>
+                <p>The app requests access only to features needed for its main functionality.</p>
 
                 <div class="service-block">
                     <h3>Calendar</h3>
-                    <p>Requested so the app can create events in your Apple Calendar. It only writes events when you choose to create one. It does not read your existing calendars and does not send calendar data anywhere.</p>
+                    <p>Calendar access is used to create events in your Apple Calendar when you choose to do so. The app does not read your existing calendar events and does not send calendar data anywhere.</p>
                 </div>
             </section>
 
             <section>
                 <h2>4. Subscriptions</h2>
-                <p>The app uses standard Apple StoreKit for subscriptions. Payments, renewals, refunds, and security are all handled by Apple.</p>
-                <p>The app receives only the information Apple provides to developers, such as whether a subscription is active. It does not receive your name, email, or payment details.</p>
+                <p>The app uses standard Apple StoreKit for subscriptions and in app purchases.</p>
+                <p>All payments, renewals, receipts, and refunds are handled by Apple. Your payment information is never visible to the app.</p>
+                <p>The app only receives the information Apple provides to developers, such as whether a subscription is active. It does not receive your name, email address, or any payment details.</p>
             </section>
 
             <section>
-                <h2>5. No ads or tracking for advertising</h2>
-                <p>The app does not run ads. No data is collected or shared for advertising or marketing purposes.</p>
+                <h2>5. No ads or marketing tracking</h2>
+                <p>The app does not run ads and does not collect or share data for advertising or marketing.</p>
             </section>
 
             <section>
                 <h2>6. How data is handled</h2>
-                <p>No data is sold or shared with advertisers or third parties outside of Sentry and TelemetryDeck, which handle anonymized diagnostics and usage signals as described above.</p>
+                <p>No data is sold or shared with advertisers.</p>
+                <p>Crash data and anonymous usage signals are processed only by Sentry and TelemetryDeck as described above.</p>
             </section>
 
             <section>
@@ -249,25 +269,28 @@
 
             <section>
                 <h2>8. Contact</h2>
-                <p>Questions or concerns about privacy can be sent to <a href="mailto:verysimplefeedback@gmail.com">verysimplefeedback@gmail.com</a>. Feedback is always welcome.</p>
+                <p>Questions or concerns about privacy can be sent via email. Feedback is welcome.</p>
+                <p style="margin-top: 20px;">
+                    <a href="mailto:verysimplefeedback@gmail.com" class="email-button">Send Email</a>
+                </p>
             </section>
 
             <div class="summary">
                 <h2>Summary</h2>
                 <ul>
-                    <li>No personal profile is created.</li>
-                    <li>Crash data through Sentry is anonymized.</li>
-                    <li>Usage data through TelemetryDeck is anonymous.</li>
-                    <li>Calendar access is used only to create events you choose.</li>
-                    <li>Subscriptions are handled securely by Apple StoreKit.</li>
-                    <li>No ads. No selling of data.</li>
+                    <li>No personal profile is created</li>
+                    <li>Sentry handles anonymized crash reports</li>
+                    <li>TelemetryDeck handles anonymous usage analytics and does not identify users</li>
+                    <li>Calendar access is used only when you ask the app to create an event</li>
+                    <li>Subscriptions are handled securely by Apple StoreKit</li>
+                    <li>No ads and no selling of data</li>
                 </ul>
-                <p style="margin-top: 20px;">The app keeps things simple, transparent, and respectful of your privacy.</p>
+                <p style="margin-top: 20px;">The app aims to stay simple, transparent, and respectful of your privacy.</p>
             </div>
         </main>
 
         <footer class="contact">
-            <p>Last updated: December 11, 2025</p>
+            <p>Last updated: December 12, 2025</p>
         </footer>
     </div>
 </body>
